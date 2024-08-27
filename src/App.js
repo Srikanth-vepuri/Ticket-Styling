@@ -1,65 +1,35 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import './App.css';
-import './Ticket.css';
-import Ticket from './Components/Ticket';
+import {BrowserRouter,Link,NavLink,Route,Routes} from 'react-router-dom'
+import AdminLoginPageFunction from './Ticket-Raising-Application/AdminLoginPageFunction.js';
+import AdminDashboard from './Ticket-Raising-Application/AdminDashBoard.js';
+import TicketsFunction from './Ticket-Raising-Application/TicketsFunction.js';
+import SignInPageFunction from './Ticket-Raising-Application/SignInPageFunction.js';
+import AdminDashBoardInOrder from './Ticket-Raising-Application/AdminDashBoardInOrder.js';
+import './Ticket-Raising-Application/Styles/AdminDashboard.css';
+import './Ticket-Raising-Application/Styles/AdminLoginClass.css';
+import './Ticket-Raising-Application/Styles/AdminDashBoardInOrder.css';
+import './Ticket-Raising-Application/Styles/ClosedTickets.css';
+import './Ticket-Raising-Application/Styles/OpenedTickets.css';
+import './Ticket-Raising-Application/Styles/SignInPage.css';
+import './Ticket-Raising-Application/Styles/TicketsPageClass.css';
+function App(){
+  return(
+    <>
+       { <BrowserRouter>
+       <Link to="/"></Link>
+       <Link to="/tickets"></Link>
+       <Link to="/signInPage"></Link>
+       <Link to="/adminDashboard"></Link>
+       <Link to="adminDashboardInOrder"></Link>
+       <Routes>
+        <Route path="/" element={<AdminLoginPageFunction></AdminLoginPageFunction>}></Route>
+        <Route path="/tickets" element={<TicketsFunction></TicketsFunction>}></Route>
+        <Route path="signInPage" element={<SignInPageFunction></SignInPageFunction>}></Route>
+        <Route path="/adminDashboard" element={<AdminDashboard></AdminDashboard>}></Route>
+        <Route path="adminDashboardInOrder" element={<AdminDashBoardInOrder></AdminDashBoardInOrder>}></Route>
+        </Routes>
+        </BrowserRouter> }
 
-const App = () => {
-  const [tickets, setTickets] = useState([]);
-
-  useEffect(() => {
-    const fetchTickets = async () => {
-      try {
-        const response = await axios.get('http://localhost:5000/tickets');
-        setTickets(response.data);
-      } catch (error) {
-        console.error("Error fetching tickets tickets", error);
-      }
-    };
-    fetchTickets();
-  }, []);
-
-  const handleCommentAdd = async (id, comment) => {
-    try {
-      await axios.patch(`http://localhost:5000/tickets/${id}`, {
-        comments: [...tickets.find(ticket => ticket.id === id).comments, comment]
-      });
-      setTickets(tickets.map(ticket => 
-        ticket.id === id ? { ...ticket, comments: [...ticket.comments, comment] } : ticket
-      ));
-    } catch (error) {
-      console.error("Error adding comment", error);
-    }
-  };
-
-  const handleTicketClose = async (id) => {
-    try {
-      await axios.patch(`http://localhost:5000/tickets/${id}`, { status: 'closed' });
-      setTickets(tickets.map(ticket => 
-        ticket.id === id ? { ...ticket, status: 'closed' } : ticket
-      ));
-    } catch (error) {
-      console.error("Error closing ticket", error);
-    }
-  };
-
-  const sortedTickets = tickets.sort((a, b) => b.priority - a.priority);
-
-  return (
-    <div className="app">
-      <h1>Ticket Raising Application</h1>
-      <div className="ticket-list">
-        {sortedTickets.map(ticket => (
-          <Ticket 
-            key={ticket.id} 
-            ticket={ticket} 
-            onCommentAdd={handleCommentAdd} 
-            onClose={handleTicketClose} 
-          />
-        ))}
-      </div>
-    </div>
-  );
-};
-
-export default App;
+    </>
+  )
+}
+export default App

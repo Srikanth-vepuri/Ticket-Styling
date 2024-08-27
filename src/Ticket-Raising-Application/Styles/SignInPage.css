@@ -1,0 +1,41 @@
+.sign-in-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 450px; margin-top: 5%;
+    margin-left: 400px;
+    box-shadow: 10px 10px 5px 12px lightgrey;
+    font-family: Arial, sans-serif;
+    background-color:bisque;
+    border-radius: 10px;
+    background-image: url(blog-social-nordvpn-login.png);
+    background-size: 100% 150%;
+}
+
+.sign-in-page input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    font-size: 16px;
+}
+
+.sign-in-page button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sign-in-page .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}

@@ -1,36 +1,158 @@
 {
-  "tickets": [
+  "TicketDetails": [
+    {
+      "id": "12",
+      "priority": "2",
+      "description": "   ",
+      "status": "open"
+    },
+    {
+      "id": "11",
+      "priority": "3",
+      "description": "   ",
+      "status": "open"
+    },
     {
       "id": "1",
-      "timestamp": "2024-08-22T12:00:00Z",
-      "priority": 5,
-      "description": "Critical issue in production",
-      "status": "open",
-      "comments": [
-        "hi hello ",
-        "hi hello ",
-        "hirhgih"
-      ]
+      "priority": "4",
+      "description": " ",
+      "status": "open"
     },
     {
       "id": "2",
-      "timestamp": "2024-08-22T14:00:00Z",
-      "priority": 3,
-      "description": "Minor bug in the login page",
-      "status": "open",
-      "comments": [
-        "hfehgh fufu fkc k kud",
-        "hfuoeovb ",
-        "ficqku "
-      ]
+      "priority": "2",
+      "description": "",
+      "status": "closed"
     },
     {
       "id": "3",
-      "timestamp": "2024-08-22T14:00:00Z",
-      "priority": 3,
-      "description": "Minor bug in the login page",
-      "status": "closed",
-      "comments": []
+      "priority": "3",
+      "description": "",
+      "status": "closed"
+    },
+    {
+      "id": "4",
+      "priority": "1",
+      "description": "   ",
+      "status": "open"
+    },
+    {
+      "id": "5",
+      "priority": "5",
+      "description": "",
+      "status": "closed"
+    },
+    {
+      "id": "6",
+      "priority": "1",
+      "description": "",
+      "status": "closed"
+    },
+    {
+      "id": "7",
+      "priority": "3",
+      "description": "",
+      "status": "open"
+    },
+    {
+      "id": "8",
+      "priority": "4",
+      "description": "",
+      "status": "closed"
+    },
+    {
+      "id": "9",
+      "priority": "5",
+      "description": "wertgsdfg",
+      "status": "open"
+    },
+    {
+      "id": "10",
+      "priority": "1",
+      "description": "",
+      "status": "closed"
+    }
+  ],
+  "LoginDetails": [
+    {
+      "username": "bharath",
+      "password": "bharath@1234",
+      "id": "ecc8"
+    },
+    {
+      "username": "bharath1",
+      "password": "bharath1@1234",
+      "id": "273f"
+    },
+    {
+      "username": "bharath2",
+      "password": "bharath2@1234",
+      "id": "a826"
+    },
+    {
+      "username": "bharath3",
+      "password": "bharath3@1234",
+      "id": "f761"
+    },
+    {
+      "username": "bharath4",
+      "password": "bharath4@1234",
+      "id": "585e"
+    },
+    {
+      "id": "5ae3",
+      "username": "bharath5",
+      "password": "bharath5@1234"
+    },
+    {
+      "id": "4b97",
+      "username": "bharath6",
+      "password": "bharath6@1234"
+    },
+    {
+      "id": "bcd0",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "6f05",
+      "username": "bharath7",
+      "password": "bharath7@1234"
+    },
+    {
+      "id": "efae",
+      "username": "narendra",
+      "password": "narendra@1234"
+    },
+    {
+      "id": "0bf5",
+      "username": "bfu",
+      "password": "sri"
+    },
+    {
+      "id": "af07",
+      "username": "bharath",
+      "password": "bharath@1234"
+    },
+    {
+      "id": "8013",
+      "username": "hi",
+      "password": "hello@1234"
+    },
+    {
+      "id": "52ae",
+      "username": "srikanth",
+      "password": "srikanth@1234"
+    },
+    {
+      "id": "28e3",
+      "username": "srikanth",
+      "password": "srikanth"
+    },
+    {
+      "id": "f257",
+      "username": "sri",
+      "password": "sri"
     }
   ]
 }

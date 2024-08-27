@@ -1,0 +1,66 @@
+.opened-tickets {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.opened-tickets .ticket {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 6px 6px 6px 4px lightgrey;
+}
+
+.ticket.priority-5 {
+    background-color: #ff5722; /* Orange */
+    color: #fff;
+}
+
+.ticket.priority-4 {
+    background-color: #ffeb3b; /* Yellow */
+    color: #000;
+}
+
+.ticket.priority-3 {
+    background-color: #8bc34a; /* Light Green */
+    color: #fff;
+}
+
+.ticket.priority-2 {
+    background-color: #03a9f4; /* Light Blue */
+    color: #fff;
+}
+
+.ticket.priority-1 {
+    background-color: #9e9e9e; /* Light Gray */
+    color: #fff;
+}
+
+.opened-tickets textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 100px;
+}
+
+.opened-tickets button {
+    margin-left: 35%;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.opened-tickets button:hover {
+    background-color: #0056b3;
+}
+.openheading{
+    text-align: center;
+}

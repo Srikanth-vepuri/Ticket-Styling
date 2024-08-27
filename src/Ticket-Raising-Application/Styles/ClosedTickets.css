@@ -1,0 +1,41 @@
+.closed-tickets {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    font-family: Arial, sans-serif
+}
+
+.closed-tickets .ticket {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 6px 6px 6px 6px lightgrey;
+}
+
+.ticket.priority-5 {
+    background-color: orange; /* Orange */
+    color: #fff;
+}
+
+.ticket.priority-4 {
+    background-color: yellow; /* Yellow */
+    color: #000;
+}
+
+.ticket.priority-3 {
+    background-color: lightgreen; /* Light Green */
+    color: #fff;
+}
+
+.ticket.priority-2 {
+    background-color: rgb(48, 171, 212); /* Light Blue */
+    color: #fff;
+}
+
+.ticket.priority-1 {
+    background-color: lightgray; /* Light Gray */
+    color: #fff;
+}
+.closedhead{
+    text-align: center;
+}
