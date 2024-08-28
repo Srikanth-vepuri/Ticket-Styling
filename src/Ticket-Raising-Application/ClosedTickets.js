@@ -11,9 +11,10 @@ class ClosedTickets extends React.Component {
             <div className="closed-tickets">
                 {this.props.data.map((item) => (
                     <div key={item.id} className={`ticket priority-${item.priority}`}>
-                        <p>Ticket-Id: {item.id}</p>
+                        <p>Ticket-Issue: {item.issue}</p>
                         <p>Ticket-Status: {item.status}</p>
                         <p>Ticket-Priority: {item.priority}</p>
+                        <button onClick={()=>this.props.prop3(item.id)} className="reopen">Reopen</button>
                         {/* <p>Ticket-Description: {item.description}</p> */}
                         <br />
                     </div>

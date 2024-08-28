@@ -22,11 +22,10 @@ class OpenedTickets extends React.Component {
             <div className="opened-tickets">
                 {this.props.data.map((item) => (
                     <div key={item.id} className={`ticket priority-${item.priority}`}>
-                        <p>Ticket-Id: {item.id}</p>
+                        <p>Ticket-Issue: {item.issue}</p>
                         <p>Ticket-Status: {item.status}</p>
                         <p>Ticket-Priority: {item.priority}</p>
-                        <p>Ticket-Description: {item.description}</p>
-                        Description:
+                        Solotion:
                         <textarea onChange={(e) => this.handleUpdate(e, item.id)}></textarea>
                         <br />
                         <button onClick={() => this.props.prop1(item.id)}>Close</button>

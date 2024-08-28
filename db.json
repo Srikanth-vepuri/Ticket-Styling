@@ -1,76 +1,70 @@
 {
   "TicketDetails": [
     {
-      "id": "12",
-      "priority": "2",
-      "description": "   ",
-      "status": "open"
-    },
-    {
       "id": "11",
       "priority": "3",
-      "description": "   ",
-      "status": "open"
+      "status": "open",
+      "issue": "Password reset requests"
     },
     {
       "id": "1",
       "priority": "4",
-      "description": " ",
-      "status": "open"
+      "status": "open",
+      "issue": "Software installation/update errors."
     },
     {
       "id": "2",
       "priority": "2",
-      "description": "",
-      "status": "closed"
+      "status": "open",
+      "issue": "Email-related problems."
     },
     {
       "id": "3",
       "priority": "3",
-      "description": "",
-      "status": "closed"
+      "status": "open",
+      "issue": "Connectivity issues."
     },
     {
       "id": "4",
       "priority": "1",
-      "description": "   ",
-      "status": "open"
+      "status": "open",
+      "issue": "Hardware malfunction reports. "
     },
     {
       "id": "5",
       "priority": "5",
-      "description": "",
-      "status": "closed"
+      "status": "closed",
+      "issue": "Access issues to shared resources."
     },
     {
       "id": "6",
       "priority": "1",
-      "description": "",
-      "status": "closed"
+      "status": "open",
+      "issue": "Performance complaints. "
     },
     {
       "id": "7",
       "priority": "3",
-      "description": "",
-      "status": "open"
+      "status": "closed",
+      "issue": "Software bug reports"
     },
     {
       "id": "8",
       "priority": "4",
-      "description": "",
-      "status": "closed"
+      "status": "closed",
+      "issue": "Printer Not Working"
     },
     {
       "id": "9",
       "priority": "5",
-      "description": "wertgsdfg",
-      "status": "open"
+      "status": "closed",
+      "issue": "Wi-Fi Not Connecting"
     },
     {
       "id": "10",
       "priority": "1",
-      "description": "",
-      "status": "closed"
+      "status": "closed",
+      "issue": "Computer Running Slow"
     }
   ],
   "LoginDetails": [
