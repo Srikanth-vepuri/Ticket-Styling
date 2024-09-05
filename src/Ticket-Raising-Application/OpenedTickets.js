@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import "./Styles/ClosedTickets.css"; // Import CSS file
+import "./Styles/OpenedTickets.css"; // Import CSS file
 
 class OpenedTickets extends React.Component {
     constructor(props) {

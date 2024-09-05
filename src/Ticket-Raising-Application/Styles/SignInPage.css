@@ -1,41 +1,109 @@
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #a2c2e8, #eba875,pink,rgb(147, 240, 147)); 
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
 .sign-in-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 450px;
-    width: 450px; margin-top: 5%;
-    margin-left: 400px;
-    box-shadow: 10px 10px 5px 12px lightgrey;
-    font-family: Arial, sans-serif;
-    background-color:bisque;
+    width: 400px;
+    padding: 20px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.9); 
     border-radius: 10px;
-    background-image: url(blog-social-nordvpn-login.png);
-    background-size: 100% 150%;
+    position: relative;
+    z-index: 1;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.sign-in-page h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .sign-in-page input {
     margin: 10px 0;
-    padding: 10px;
+    padding: 12px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    width: 300px;
+    width: 100%;
     font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.sign-in-page input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    outline: none;
 }
 
 .sign-in-page button {
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border: none;
     border-radius: 5px;
     background-color: #007bff;
     color: #fff;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.sign-in-page button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
 
 .sign-in-page .error {
     color: red;
     font-size: 14px;
     margin-top: 10px;
+    animation: fadeInError 0.5s ease-out;
+}
+
+.input-data{
+    font-size: 20px;
+    text-align: center;
 }

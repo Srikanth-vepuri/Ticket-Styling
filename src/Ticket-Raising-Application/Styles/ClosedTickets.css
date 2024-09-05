@@ -1,46 +1,65 @@
+/* Styling for the page heading */
+.closedhead {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out;
+}
+
+
 .closed-tickets {
-    display:grid;
-    grid-template-columns: auto auto auto;
+    display: grid;font-size: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+    gap: 20px; 
     padding: 20px;
-    font-family: Arial, sans-serif
+    background: #f9f9f9; 
 }
 
 .closed-tickets .ticket {
-    padding: 10px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 8px;
     margin: 10px;
-    box-shadow: 6px 6px 6px 6px lightgrey;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.closed-tickets .ticket:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .ticket.priority-5 {
-    background-color: orange; /* Orange */
+    background-color: #ff5722;
     color: #fff;
 }
 
 .ticket.priority-4 {
-    background-color: yellow; /* Yellow */
+    background-color: #ffeb3b;
     color: #000;
 }
 
 .ticket.priority-3 {
-    background-color: lightgreen; /* Light Green */
+    background-color: #8bc34a;
     color: #fff;
 }
 
 .ticket.priority-2 {
-    background-color: rgb(48, 171, 212); /* Light Blue */
+    background-color: #03a9f4;
     color: #fff;
 }
 
 .ticket.priority-1 {
-    background-color: lightgray; /* Light Gray */
+    background-color: #9e9e9e;
     color: #fff;
 }
-.closedhead{
-    text-align: center;
-}
-.reopen{
-    margin-left: 35%;
+
+.closed-tickets .reopen {
     margin-top: 10px;
     padding: 10px 20px;
     border: none;
@@ -49,4 +68,31 @@
     color: #fff;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.closed-tickets .reopen:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

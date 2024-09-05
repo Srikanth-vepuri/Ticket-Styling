@@ -49,14 +49,15 @@ class AdminLoginClass extends React.Component {
 
     render() {
         return (
-            <div className="outer-layer">
-            <div className="admin-login">
-                UserName:<input type="text" placeholder="please enter username" onChange={(e) => this.handleChange(e, "username")} />
-                <div className="error">{this.state.errusername}</div>
-                Password:<input type="password" placeholder="please enter password" onChange={(e) => this.handleChange(e, "password")} />
-                <div className="error">{this.state.errpassword}</div>
-                <button onClick={this.handleSubmit}>login/Signup</button>
-            </div></div>
+            <div className="background-container">
+                <div className="admin-login">
+                    UserName:<input type="text" placeholder="please enter username" onChange={(e) => this.handleChange(e, "username")} />
+                    <div className="error">{this.state.errusername}</div>
+                    Password:<input type="password" placeholder="please enter password" onChange={(e) => this.handleChange(e, "password")} />
+                    <div className="error">{this.state.errpassword}</div>
+                    <button onClick={this.handleSubmit}>login/Signup</button>
+                </div>
+            </div>
         );
     }
 }

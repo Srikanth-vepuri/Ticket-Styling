@@ -38,15 +38,17 @@ class SignInPage extends React.Component {
     }
 
     render() {
-        return (
+        return ( <div className="background-container">
             <div className="sign-in-page">
                 <h1>Sign-In Page</h1>
+                <div className="input-data">
                 Username: <input type="text" placeholder="enter username" onChange={(e) => this.handleChange(e, "username")} />
                 Password: <input type="password" placeholder="enter password" onChange={(e) => this.handleChange(e, "password1")} />
                 Confirm Password: <input type="password" placeholder="confirm password" onChange={(e) => this.handleChange(e, "password2")} />
+                </div>
                 <div className="error">{this.state.Passworderr}</div>
                 <button onClick={this.handleSubmit}>Sign-In</button>
-            </div>
+            </div></div>
         );
     }
 }
