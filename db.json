@@ -79,11 +79,6 @@
       "priority": "1",
       "status": "open",
       "issue": "ticket issue"
-    },
-    {
-      "id": "f858",
-      "status": "open",
-      "issue": ""
     }
   ],
   "AdminLoginDetails": [
