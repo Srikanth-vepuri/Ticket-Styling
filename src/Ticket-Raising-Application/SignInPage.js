@@ -38,7 +38,7 @@ class SignInPage extends React.Component {
     }
 
     render() {
-        return ( <div className="background-container">
+        return ( <div className="signin-container">
             <div className="sign-in-page">
                 <h1>Sign-In Page</h1>
                 <div className="input-data">
