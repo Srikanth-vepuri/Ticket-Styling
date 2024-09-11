@@ -3,20 +3,20 @@
     {
       "id": "11",
       "priority": "3",
-      "status": "closed",
-      "issue": "Password reset requests"
+      "status": "open",
+      "issue": "Password reset requests",
+      "description": "resolved"
     },
     {
       "id": "1",
       "priority": "4",
       "status": "closed",
-      "issue": "Software installation/update errors.",
-      "description": ""
+      "issue": "Software installation/update errors."
     },
     {
       "id": "2",
       "priority": "2",
-      "status": "closed",
+      "status": "open",
       "issue": "Email-related problems."
     },
     {
@@ -29,7 +29,8 @@
       "id": "4",
       "priority": "1",
       "status": "closed",
-      "issue": "Hardware malfunction reports. "
+      "issue": "Hardware malfunction reports. ",
+      "description": "cdcd"
     },
     {
       "id": "5",
@@ -40,13 +41,13 @@
     {
       "id": "6",
       "priority": "1",
-      "status": "closed",
+      "status": "open",
       "issue": "Performance complaints. "
     },
     {
       "id": "7",
       "priority": "3",
-      "status": "open",
+      "status": "closed",
       "issue": "Software bug reports"
     },
     {
@@ -58,7 +59,7 @@
     {
       "id": "9",
       "priority": "5",
-      "status": "open",
+      "status": "closed",
       "issue": "Wi-Fi Not Connecting"
     },
     {
@@ -66,9 +67,26 @@
       "priority": "1",
       "status": "open",
       "issue": "Computer Running Slow"
+    },
+    {
+      "id": "7892",
+      "priority": "3",
+      "status": "open",
+      "issue": "wifi not working"
+    },
+    {
+      "id": "0161",
+      "priority": "1",
+      "status": "open",
+      "issue": "ticket issue"
+    },
+    {
+      "id": "f858",
+      "status": "open",
+      "issue": ""
     }
   ],
-  "LoginDetails": [
+  "AdminLoginDetails": [
     {
       "username": "bharath",
       "password": "bharath@1234",
@@ -96,13 +114,15 @@
     },
     {
       "id": "5ae3",
-      "username": "bharath5",
-      "password": "bharath5@1234"
-    },
+      "username": "nani",
+      "password": "123"
+    }
+  ],
+  "UserLoginDetails": [
     {
       "id": "4b97",
-      "username": "bharath6",
-      "password": "bharath6@1234"
+      "username": "pandu",
+      "password": "123"
     },
     {
       "id": "bcd0",
@@ -120,39 +140,56 @@
       "password": "narendra@1234"
     },
     {
-      "id": "0bf5",
-      "username": "bfu",
-      "password": "sri"
-    },
-    {
-      "id": "af07",
-      "username": "bharath",
+      "id": "4d8a",
+      "username": "bharath111",
       "password": "bharath@1234"
     },
     {
-      "id": "8013",
-      "username": "hi",
-      "password": "hello@1234"
+      "id": "a784",
+      "username": "saikrishna",
+      "password": "saikrishna@1234"
     },
     {
-      "id": "52ae",
-      "username": "srikanth",
-      "password": "srikanth@1234"
+      "id": "a86e",
+      "username": "bharath123",
+      "password": "123"
     },
     {
-      "id": "28e3",
-      "username": "",
-      "password": ""
+      "id": "9b73",
+      "username": "nani",
+      "password": "123"
+    }
+  ],
+  "ContactsDetails": [
+    {
+      "cname": "bharath",
+      "cno": "7731096886",
+      "cemail": "bharath@gmai.com",
+      "id": "b8a1"
     },
     {
-      "id": "f257",
-      "username": "",
-      "password": ""
+      "cname": "kumar",
+      "cno": "7731",
+      "cemail": "vgfszx@",
+      "id": "e8d9"
     },
     {
-      "id": "e29e",
-      "username": "sri",
-      "password": "srir"
+      "id": "d7b0",
+      "cname": "jack",
+      "cno": 3878787767,
+      "cemail": "jack@123"
+    },
+    {
+      "id": "93bf",
+      "cname": "loki",
+      "cno": 9003804225,
+      "cemail": "loki@123"
+    },
+    {
+      "id": "b11b",
+      "cname": "anand",
+      "cno": 9748470,
+      "cemail": "anand@123"
     }
   ]
 }
