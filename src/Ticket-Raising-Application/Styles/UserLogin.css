@@ -67,19 +67,19 @@
 
 @keyframes inputFocusPulse {
     0% {
-        box-shadow: 0 0 0 rgba(0, 123, 255, 0.5);
+        box-shadow: 0 0 0 rgb(255, 99, 125);
     }
     50% {
-        box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+        box-shadow: 0 0 10px rgb(255, 99, 125) ;
     }
     100% {
-        box-shadow: 0 0 0 rgba(0, 123, 255, 0.5);
+        box-shadow: 0 0 0 rgb(255, 99, 125);
     }
 }
 
 .user-login input:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    border-color: rgb(255, 99, 125);
+    box-shadow: 0 0 8px rgb(255, 99, 125);
     outline: none;
     animation: inputFocusPulse 1s ease-in-out;
 }
