@@ -1,0 +1,48 @@
+.experiment-user {
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient( 135deg,#ff005d,white ); 
+        background-size: 100% 100%;
+        animation: gradientAnimation 5s ease infinite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    
+}
+
+.tickets-user-page {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(10px); 
+    background-image: url(airline-ticket-boarding.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out;
+}
+.tickets-user-page button {
+    margin-top: 90px;
+    margin-left: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color:#007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.tickets-user-page button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

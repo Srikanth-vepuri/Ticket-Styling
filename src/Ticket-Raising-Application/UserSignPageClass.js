@@ -1,8 +1,8 @@
 import axios from "axios";
 import React from "react";
-import "./Styles/SignInPage.css"; // Import CSS file
+import "./Styles/UserSignInPage.css"; // Import CSS file
 
-class SignInPage extends React.Component {
+class UserSignInPageClass extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -31,15 +31,16 @@ class SignInPage extends React.Component {
             }).then((res) => { console.log(res) })
                 .catch((err) => { console.log(err) });
             const { navigate } = this.props.navigate;
-            navigate("/");
+            navigate("/userLogin");
         } else {
             this.setState({ Passworderr: "Username, Password, or Confirm Password are not matching" });
         }
     }
+
     render() {
-        return ( <div className="signin-container">
-            <div className="sign-in-page">
-                <h1>Admin Sign-In Page</h1>
+        return (<div className="users-container">
+            <div className="users-in-page">
+                <h1>User Sign-In Page</h1>
                 <div className="input-data">
                 Username: <input type="text" placeholder="enter username" onChange={(e) => this.handleChange(e, "username")} />
                 Password: <input type="password" placeholder="enter password" onChange={(e) => this.handleChange(e, "password1")} />
@@ -52,4 +53,4 @@ class SignInPage extends React.Component {
     }
 }
 
-export default SignInPage;
+export default UserSignInPageClass;

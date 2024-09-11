@@ -1,41 +1,32 @@
-.experiment {
+.experiments {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient( to right, #12C2E9 , #F64F59); 
-    background-size: 200% 200%;
-    animation: gradientAnimation 5s ease infinite;
+    background-image: url(pexels-photo-1955134.jpeg);
+    background-size: 100% 140%;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
 }
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 0%;
-    }
-    50% {
-        background-position: 100% 100%;
-    }
-    100% {
-        background-position: 0% 0%;
-    }
-}
 
-.tickets-page {
+
+.login-class {
     text-align: center;
-    background-image: url(Ticket-01.png);background-size: 100% 100%;
     padding: 20px;
-    background-color: rgb(185, 184, 184);
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(10px); 
     height: 200px;
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s ease-out;
 }
-.tickets-page button {
-    margin-top: 90px;
+
+
+.login-class button {
+    margin-top: 80px;
     margin-left: 10px;
     padding: 15px 30px;
     border: none;
@@ -49,7 +40,7 @@
     box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
 }
 
-.tickets-page button:hover {
+.login-class button:hover {
     background-color: #0056b3;
     transform: scale(1.05);
 }

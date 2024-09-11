@@ -15,10 +15,10 @@ class AdminLoginClass extends React.Component {
 
     handleSubmit = (e) => {
         const { navigate } = this.props;
-        axios.get(`http://localhost:3000/LoginDetails?username=${this.state.username}&&password=${this.state.password}`)
+        axios.get(`http://localhost:3000/AdminLoginDetails?username=${this.state.username}&&password=${this.state.password}`)
             .then((res) => {
                 const response = res.data[0];
-                if (this.state.username !== "" && this.state.password !== "") {
+                if (this.state.username!== "" && this.state.password !== "") {
                     if (response === undefined) {
                         navigate('/signInPage');
                     }

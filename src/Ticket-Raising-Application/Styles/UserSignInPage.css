@@ -1,18 +1,18 @@
-.signin-container {
+.users-container {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(painting-mountain.avif);
+    background-image: url(depositphotos_19750405.jpg);
     background-size: 100% 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding-left: 15%;
     overflow: hidden;
 }
 
-.sign-in-page {
+.users-in-page {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,14 +39,14 @@
     }
 }
 
-.sign-in-page h1 {
+.users-in-page h1 {
     margin-bottom: 20px;
     font-size: 2rem;
     color: #333;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.sign-in-page input {
+.users-in-page input {
     margin: 10px 0;
     padding: 12px;
     border-radius: 5px;
@@ -58,13 +58,13 @@
     box-sizing: border-box;
 }
 
-.sign-in-page input:focus {
+.users-in-page input:focus {
     border-color: #007bff;
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
     outline: none;
 }
 
-.sign-in-page button {
+.users-in-page button {
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 20px;
@@ -79,12 +79,12 @@
     box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
 }
 
-.sign-in-page button:hover {
+.users-in-page button:hover {
     background-color: #0056b3;
     transform: scale(1.05);
 }
 
-.sign-in-page .error {
+.users-in-page .error {
     color: red;
     font-size: 14px;
     margin-top: 10px;
