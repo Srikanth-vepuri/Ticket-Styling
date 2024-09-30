@@ -1,0 +1,61 @@
+.mcqcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-image: url(purple-color-cover1.webp);
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.mcqbutton {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px; 
+    background-color: #ffffff;
+    color: #6a11cb;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mcqbutton:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px); 
+}
+
+.mcqbutton.active {
+    background-color: #6a11cb;
+    color: white; 
+    transform: translateY(-2px); 
+}
+
+.popupcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.signupbutton {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a11cb;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.signupbutton:hover {
+    background-color: #5a0f9d; 
+    transform: scale(1.05); 
+}

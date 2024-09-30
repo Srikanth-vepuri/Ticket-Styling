@@ -1,0 +1,85 @@
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0; 
+    padding-bottom: 10px;
+}
+
+.dashboard-header h1 {
+    font-size: 28px;
+    color: #333333; 
+}
+
+.user-details {
+    font-size: 16px;
+    color: #555555; 
+    margin-bottom: 20px;
+}
+
+.dashboard-content {
+    width: 100%;
+}
+
+.user-links {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    gap: 10px; 
+    margin: 20px 0;
+}
+
+.link {
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; 
+    background-color: #007bff; 
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.link:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff; 
+    background-color: #28a745;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #218838; 
+    transform: translateY(-2px); 
+}
+
+.button-secondary {
+    background-color: #6c757d; 
+}
+
+.button-secondary:hover {
+    background-color: #5a6268; 
+}

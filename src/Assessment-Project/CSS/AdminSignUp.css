@@ -1,0 +1,130 @@
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.signup-card {
+    width: 100%;
+    max-width: 450px; 
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.signup-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #8e24aa;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #6a1b9a;
+}
+
+/* Input Fields */
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #bdc3c7;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #8e24aa;
+    box-shadow: 0 0 5px rgba(142, 36, 170, 0.5);
+}
+
+
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.success-message {
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.button-box {
+    text-align: center;
+}
+
+
+.submit-button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #9c27b0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: inline-block; 
+}
+
+.submit-button:hover {
+    background-color: #7b1fa2;
+    transform: scale(1.05);
+}
+
+.submit-button:active {
+    background-color: #6a1b9a;
+}
+
+
+.input-group input[type="file"] {
+    padding: 5px;
+    background-color: #fce4ec;
+    border-radius: 8px;
+    border: 1px dashed #bdc3c7;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .signup-container {
+        padding: 15px; 
+    }
+    .signup-card {
+        padding: 20px; 
+    }
+    .form-title {
+        font-size: 24px;
+    }
+}

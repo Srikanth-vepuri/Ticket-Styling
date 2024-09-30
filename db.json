@@ -1,190 +1,405 @@
 {
-  "TicketDetails": [
-    {
-      "id": "11",
-      "priority": "3",
-      "status": "open",
-      "issue": "Password reset requests",
-      "description": "resolved"
-    },
-    {
-      "id": "1",
-      "priority": "4",
-      "status": "closed",
-      "issue": "Software installation/update errors."
-    },
-    {
-      "id": "2",
-      "priority": "2",
-      "status": "open",
-      "issue": "Email-related problems."
-    },
-    {
-      "id": "3",
-      "priority": "3",
-      "status": "open",
-      "issue": "Connectivity issues."
-    },
-    {
-      "id": "4",
-      "priority": "1",
-      "status": "closed",
-      "issue": "Hardware malfunction reports. ",
-      "description": "cdcd"
-    },
-    {
-      "id": "5",
-      "priority": "5",
-      "status": "closed",
-      "issue": "Access issues to shared resources."
-    },
-    {
-      "id": "6",
-      "priority": "1",
-      "status": "open",
-      "issue": "Performance complaints. "
-    },
-    {
-      "id": "7",
-      "priority": "3",
-      "status": "closed",
-      "issue": "Software bug reports"
-    },
-    {
-      "id": "8",
-      "priority": "4",
-      "status": "open",
-      "issue": "Printer Not Working"
-    },
-    {
-      "id": "9",
-      "priority": "5",
-      "status": "closed",
-      "issue": "Wi-Fi Not Connecting"
-    },
-    {
-      "id": "10",
-      "priority": "1",
-      "status": "open",
-      "issue": "Computer Running Slow"
-    },
-    {
-      "id": "7892",
-      "priority": "3",
-      "status": "open",
-      "issue": "wifi not working"
-    },
-    {
-      "id": "0161",
-      "priority": "1",
-      "status": "open",
-      "issue": "ticket issue"
-    }
-  ],
   "AdminLoginDetails": [
     {
-      "username": "bharath",
-      "password": "bharath@1234",
-      "id": "ecc8"
+      "id": "aa70",
+      "adminname": "Srikanth",
+      "adminpassword": "123456",
+      "adminemail": "srikanth@gmail.com"
     },
     {
-      "username": "bharath1",
-      "password": "bharath1@1234",
-      "id": "273f"
+      "id": "7f11",
+      "adminname": "Naveen",
+      "adminpassword": "123",
+      "adminemail": "123@gmail.com"
     },
     {
-      "username": "bharath2",
-      "password": "bharath2@1234",
-      "id": "a826"
-    },
-    {
-      "username": "bharath3",
-      "password": "bharath3@1234",
-      "id": "f761"
-    },
-    {
-      "username": "bharath4",
-      "password": "bharath4@1234",
-      "id": "585e"
-    },
-    {
-      "id": "5ae3",
-      "username": "nani",
-      "password": "123"
+      "id": "55df",
+      "adminname": "bha",
+      "adminpassword": "123456",
+      "adminemail": "jjk",
+      "phonenumber": "8234567890"
     }
   ],
   "UserLoginDetails": [
     {
-      "id": "4b97",
-      "username": "pandu",
-      "password": "123"
+      "id": "366c",
+      "username": "uihhnm",
+      "userpassword": "123456",
+      "useremail": "bhrath@1234",
+      "phonenumber": "9087654321"
     },
     {
-      "id": "bcd0",
-      "username": "",
-      "password": ""
-    },
-    {
-      "id": "6f05",
-      "username": "bharath7",
-      "password": "bharath7@1234"
-    },
-    {
-      "id": "efae",
-      "username": "narendra",
-      "password": "narendra@1234"
-    },
-    {
-      "id": "4d8a",
-      "username": "bharath111",
-      "password": "bharath@1234"
-    },
-    {
-      "id": "a784",
-      "username": "saikrishna",
-      "password": "saikrishna@1234"
-    },
-    {
-      "id": "a86e",
-      "username": "bharath123",
-      "password": "123"
-    },
-    {
-      "id": "9b73",
-      "username": "nani",
-      "password": "123"
+      "id": "39b6",
+      "username": "bha",
+      "userpassword": "123456",
+      "useremail": "lokesh123@gmail.com",
+      "phonenumber": "7123456789"
     }
   ],
-  "ContactsDetails": [
+  "react": [
     {
-      "cname": "bharath",
-      "cno": "7731096886",
-      "cemail": "bharath@gmai.com",
-      "id": "b8a1"
+      "id": "bfd0",
+      "Question": "What is the correct command to create a new React Project?",
+      "Option1": "npm create-react-app myReactApp",
+      "Option2": "npx create-react-app myReactApp",
+      "Option3": "npx create-react-app",
+      "Option4": "npm create-react-app",
+      "Answer": "npm create-react-app myReactApp"
     },
     {
-      "cname": "kumar",
-      "cno": "7731",
-      "cemail": "vgfszx@",
-      "id": "e8d9"
+      "id": "3f09",
+      "Question": "When setState()  is called inside render() method, which of the following events takes place?",
+      "Option1": "duplicate key error",
+      "Option2": "repetitive output happiness on the screen",
+      "Option3": "nothing happens",
+      "Option4": "stackoverflow error",
+      "Answer": "stackoverflow error"
     },
     {
-      "id": "d7b0",
-      "cname": "jack",
-      "cno": 3878787767,
-      "cemail": "jack@123"
+      "id": "c57a",
+      "Question": "The function which is called to render HTML to a web page in react?",
+      "Option1": "ReactDOM_render()",
+      "Option2": "render()",
+      "Option3": "render_DOM()",
+      "Option4": "DOM_HTML()",
+      "Answer": "render()"
     },
     {
-      "id": "93bf",
-      "cname": "loki",
-      "cno": 9003804225,
-      "cemail": "loki@123"
+      "id": "ba42",
+      "Question": "Total ways of defining variables in ES6 is?",
+      "Option1": "1",
+      "Option2": "2",
+      "Option3": "3",
+      "Option4": "4",
+      "Answer": "3"
     },
     {
-      "id": "b11b",
-      "cname": "anand",
-      "cno": 9748470,
-      "cemail": "anand@123"
+      "id": "b32a",
+      "Question": "Using which of the following command can prevent default behavior at in react?",
+      "Option1": "preventDefault()",
+      "Option2": "avoidDefault()",
+      "Option3": "revokeDefault()",
+      "Option4": "none of the above",
+      "Answer": "preventDefault()"
+    },
+    {
+      "id": "5d84",
+      "Question": "What are arbitrary inputs of components in react also known as?",
+      "Option1": "Elements",
+      "Option2": "Props",
+      "Option3": "Keys",
+      "Option4": "Ref",
+      "Answer": "Props"
+    },
+    {
+      "id": "1481",
+      "Question": "What is ReactJS?",
+      "Option1": "Server-side framework",
+      "Option2": "user interface framework",
+      "Option3": "both ",
+      "Option4": "none of the above",
+      "Answer": "user interface framework"
+    },
+    {
+      "id": "01b9",
+      "Question": "Which of the following are two ways to handle data in react?",
+      "Option1": "services and components",
+      "Option2": "state and props",
+      "Option3": "state and services",
+      "Option4": "state and component",
+      "Answer": "state and props"
+    },
+    {
+      "id": "2658",
+      "Question": "Which of the following function is used to change the state of react component?",
+      "Option1": "this.setState()",
+      "Option2": "this.state()",
+      "Option3": "this.setChangeState()",
+      "Option4": "None of the above",
+      "Answer": "this.setState()"
+    },
+    {
+      "id": "a0c6",
+      "Question": "Choose the component which should be overridden to stop the component from updating?",
+      "Option1": "componentDidUpdate",
+      "Option2": "componentDidMount",
+      "Option3": "willComponentUpdate",
+      "Option4": "shouldComponentUpdate",
+      "Answer": "shouldComponentUpdate"
+    },
+    {
+      "id": "a7bf",
+      "Question": "1",
+      "Option1": "1",
+      "Option2": "2",
+      "Option3": "3",
+      "Option4": "4",
+      "Answer": "3"
+    }
+  ],
+  "css": [
+    {
+      "id": "db31",
+      "Question": "What does CSS stand for?",
+      "Option1": "Colorful Style Sheets",
+      "Option2": "Cascading Style Sheets",
+      "Option3": "Computer Style Sheets",
+      "Option4": "Creative Style Sheets",
+      "Answer": "Cascading Style Sheets"
+    },
+    {
+      "id": "93eb",
+      "Question": "How can we change the background color of an element?",
+      "Option1": "background-color",
+      "Option2": "color",
+      "Option3": "Both A and B",
+      "Option4": "None of the above",
+      "Answer": "background-color"
+    },
+    {
+      "id": "508e",
+      "Question": "In how many ways can CSS be written in?",
+      "Option1": "1",
+      "Option2": "2",
+      "Option3": "3",
+      "Option4": "4",
+      "Answer": "3"
+    },
+    {
+      "id": "b863",
+      "Question": "How can we select an element with a specific Class in CSS?",
+      "Option1": "#",
+      "Option2": ".",
+      "Option3": ">",
+      "Option4": "None of the above",
+      "Answer": "."
+    },
+    {
+      "id": "8622",
+      "Question": "Which HTML tag is used to declare internal CSS?",
+      "Option1": "<style>",
+      "Option2": "<link>",
+      "Option3": "<script>",
+      "Option4": "None of the above",
+      "Answer": "<style>"
+    },
+    {
+      "id": "f197",
+      "Question": "Which of the following are valid ways to represent a colour in CSS?",
+      "Option1": "A valid color name",
+      "Option2": "RGB values",
+      "Option3": "HEX values",
+      "Option4": "All of the above",
+      "Answer": "All of the above"
+    },
+    {
+      "id": "4481",
+      "Question": "2",
+      "Option1": "2",
+      "Option2": "1",
+      "Option3": "2",
+      "Option4": "1",
+      "Answer": "1"
+    },
+    {
+      "id": "cedd",
+      "Question": "e322",
+      "Option1": "2",
+      "Option2": "3",
+      "Option3": "3",
+      "Option4": "4",
+      "Answer": "3"
+    },
+    {
+      "id": "e879",
+      "Question": "34",
+      "Option1": "4",
+      "Option2": "4",
+      "Option3": "4",
+      "Option4": "4",
+      "Answer": "4"
+    }
+  ],
+  "java script": [
+    {
+      "id": "5b40",
+      "Question": "Inside which HTML element do we put the JavaScript?",
+      "Option1": "<script>",
+      "Option2": "<javaScript>",
+      "Option3": "<scripting>",
+      "Option4": "<js>",
+      "Answer": "<script>"
+    },
+    {
+      "id": "bfbe",
+      "Question": "Where is the correct place to insert a JavaScript?",
+      "Option1": "The <body> section",
+      "Option2": "The <header> section",
+      "Option3": "Both",
+      "Option4": "None of the above",
+      "Answer": "Both"
+    },
+    {
+      "id": "5df4",
+      "Question": "How do you write \"Hello World\" in an alert box?",
+      "Option1": "msg(\"Hello world\");",
+      "Option2": "alert(\"Hello world\");",
+      "Option3": "msgBox(\"Hello world\");",
+      "Option4": "alertBox(\"Hello world\");",
+      "Answer": "alert(\"Hello world\");"
+    },
+    {
+      "id": "736c",
+      "Question": "How do you call a function named \"myFunction\"?",
+      "Option1": "myFunction()",
+      "Option2": "call myFunction()",
+      "Option3": "call function myFunction()",
+      "Option4": "None of the above",
+      "Answer": "myFunction()"
+    },
+    {
+      "id": "e2e9",
+      "Question": "How to write an IF statement in JavaScript?",
+      "Option1": "if(i==5)",
+      "Option2": "if i==5 then",
+      "Option3": "if i==5",
+      "Option4": "if i=5 then",
+      "Answer": "if(i==5)"
+    }
+  ],
+  "html": [
+    {
+      "id": "e29e",
+      "Question": "What is the full form of HTML?",
+      "Option1": "Hyperlinks and text markup",
+      "Option2": "Home tool Language",
+      "Option3": "Hyper Text markup language",
+      "Option4": "None of the above",
+      "Answer": "Hyper Text markup language"
+    },
+    {
+      "id": "4902",
+      "Question": "Which attribute is used to provide a unique name to an HTML element?",
+      "Option1": "class",
+      "Option2": "id",
+      "Option3": "type",
+      "Option4": "All of the above",
+      "Answer": "id"
+    },
+    {
+      "id": "5b94",
+      "Question": "Which HTML tag is called the root element of an HTML document?",
+      "Option1": "<body>",
+      "Option2": "<head>",
+      "Option3": "<html>",
+      "Option4": "<title>",
+      "Answer": "<html>"
+    },
+    {
+      "id": "ea56",
+      "Question": "Which of the following are examples of block-level elements in HTML?",
+      "Option1": "<div>",
+      "Option2": "<p>",
+      "Option3": "<h1>",
+      "Option4": "All of the above",
+      "Answer": "All of the above"
+    },
+    {
+      "id": "4473",
+      "Question": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+      "Option1": "<script name = \"xxx.js\">",
+      "Option2": "<script href = \"xxx.js\">",
+      "Option3": "<script src = \"xxx.js\">",
+      "Option4": "<script value = \"xxx.js\">",
+      "Answer": "<script src = \"xxx.js\">"
+    },
+    {
+      "id": "d9bd",
+      "Question": "Which HTML element is used to define description data?",
+      "Option1": "<li>",
+      "Option2": "<ol>",
+      "Option3": "<dd>",
+      "Option4": "<dl>",
+      "Answer": "<dd>"
+    }
+  ],
+  "results": [
+    {
+      "id": "25bn",
+      "count": 6,
+      "Username": "hari",
+      "Mail": "har@gmail.com",
+      "techno": "react"
+    },
+    {
+      "id": "ee08",
+      "count": 9,
+      "Username": "ravi",
+      "Mail": "@gmail.com",
+      "techno": "html"
+    },
+    {
+      "id": "25be",
+      "count": 10,
+      "Username": "lokesh",
+      "Mail": "lokesh@gmail.com",
+      "techno": "css"
+    },
+    {
+      "id": "ee04",
+      "count": 6,
+      "Username": "user",
+      "Mail": "user@gmail.com",
+      "techno": "js"
+    },
+    {
+      "id": "25bg",
+      "count": 10,
+      "Username": "anil",
+      "Mail": "anil@gmail.com",
+      "techno": "js"
+    },
+    {
+      "id": "ee07",
+      "count": 8,
+      "Username": "ravi",
+      "Mail": "ravi@gmail.com",
+      "techno": "js"
+    },
+    {
+      "id": "25bf",
+      "count": 9,
+      "Username": "anil",
+      "Mail": "anil@gmail.com",
+      "techno": "css"
+    },
+    {
+      "id": "e622",
+      "count": 1,
+      "Username": "Hari",
+      "Mail": "hari@gmail.com",
+      "techno": "html"
+    },
+    {
+      "id": "c0f0",
+      "count": 3,
+      "Username": "Hari",
+      "Mail": "hari@gmail.com",
+      "techno": "js"
+    },
+    {
+      "id": "ac3e",
+      "count": 3,
+      "Username": "Yoshi",
+      "Mail": "yoshi@gmail.com",
+      "techno": "js"
+    },
+    {
+      "id": "c033",
+      "count": 5,
+      "Username": "bha",
+      "Mail": "lokesh123@gmail.com",
+      "techno": "js"
     }
   ]
 }
